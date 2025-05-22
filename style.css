@@ -92,3 +92,32 @@ header .totalQuantity{
   opacity: 1;
   transform: translateX(-50%);
 }
+
+
+.cart{
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: #0e0f11;
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+  gap: 20px;
+  transition: right 1s;
+}
+
+.cart h2{
+  color: #e8bc0e;
+  padding: 20px;
+  margin: 0;
+}
+
+.cart .listCart .item{
+  display: grid;
+  grid-template-columns: 50px efr 70px;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
